@@ -800,10 +800,10 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-blog  .blog-text {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   position: relative;
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   float: left;
   background: #fff;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
@@ -814,6 +814,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  height: 350px;
 }
 .fh5co-blog:hover{
   
@@ -833,23 +834,30 @@ transition: 0.2s ease;
 .fh5co-blog .blog-text .stuff {
   margin: 0;
   padding: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
   padding-top: 20px;
+  
+  
+  
 }
 .fh5co-blog .blog-text .stuff li {
   list-style: none;
   display: inline-block;
   margin-left: 10px;
+  
 }
 .fh5co-blog .blog-text .stuff li:first-child {
   margin-left: 0;
 }
 .fh5co-blog .blog-text .stuff li:last-child {
   float: right;
+ 
+  
 }
 .fh5co-blog .blog-text .stuff li:last-child i {
   padding-right: 0;
   padding-left: 10px;
+  
 }
 .fh5co-blog .blog-text .stuff li i {
   font-size: 14px;
@@ -917,6 +925,7 @@ transition: 0.2s ease;
 }
 .fh5co-portfolio .portfolio-text .stuff li:last-child {
   float: right;
+  
 }
 .fh5co-portfolio .portfolio-text .stuff li i {
   font-size: 14px;
